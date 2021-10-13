@@ -1,0 +1,55 @@
+body{
+  background-color: #dfd8d83;
+  background-image: url("background simple 2.png");
+}
+#main{
+  background-color: #dcb0b44d;
+  width:80%;
+  height:100%;
+  min-width: 750px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+  .questionDisplay{
+    border:1px solid red;
+    height:75px;
+    font-size: 25px;
+    font-family: walsheim;
+  }
+
+
+  .buttonBox{
+    border:1px solid blue;
+    display:flex;
+    justify-content: center;
+  }
+        button{
+          height:40px;
+          width: 80px;
+          font-family:walsheim;
+          margin:3%;
+          font-size: large;
+          border:none;
+          border-radius: 5px;
+          box-shadow: 1px 1px 2px;
+          background-color: #c4e7f538;
+        }
+        button:hover{
+          box-shadow: 2px 2px 5px;
+        }
+            #startBtn{
+              height:50px;
+              width:100px;
+            }
+
+  .gameBoard{
+    border:2px solid gray;
+    box-shadow: 1px 1px 5px gray;
+    height:400px;
+    width:96%;
+    margin-left:2%;
+    /*background-image: url("");
+    background-repeat: no-repeat;*/
+  }
