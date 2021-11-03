@@ -91,28 +91,29 @@ body{
       border:1px solid black;
       box-shadow: 3px 3px 3px gray;
     }
-    #one{background-image: url("images/Todd.png");background-repeat: no-repeat;}
-    #two{background-image: url("images/Ruth.png");background-repeat: no-repeat;}
-    #three{background-image: url("images/Emily.png");background-repeat: no-repeat;}
-    #four{background-image: url("images/Angela.png");background-repeat: no-repeat;}
-    #five{background-image:url("images/Mike.png");background-repeat:no-repeat;}
-    #six{background-image: url("images/Cheryl.png");background-repeat: no-repeat;}
-    #seven{background-image: url("images/Ben.png");background-repeat: no-repeat;}
-    #eight{background-image: url("images/Edu.png");background-repeat: no-repeat;}
-    #nine{background-image: url("images/Victoria.png");background-repeat: no-repeat;}
-    #ten{background-image: url("images/Abdulrahman.png");background-repeat: no-repeat;}
-    #eleven{background-image: url("images/Matt.png");background-repeat: no-repeat;}
-    #twelve{background-image: url("images/Lucia.png");background-repeat: no-repeat;}
-    #thirteen{background-image: url("images/Max.png");background-repeat: no-repeat;}
-    #fourteen{background-image: url("images/Javier.png");background-repeat: no-repeat;}
-    #fifteen{background-image: url("images/Phillip.png");background-repeat: no-repeat;}
-    #sixteen{background-image: url("images/Kiara.png");background-repeat: no-repeat;}
-    #seventeen{background-image:url("images/Kate.png");background-repeat:no-repeat;}
-    #eighteen{background-image: url("images/Jiaohu.png");background-repeat: no-repeat;}
-    #nineteen{background-image: url("images/Renato.png");background-repeat: no-repeat;}
-    #twenty{background-image: url("images/Isabel.png");background-repeat: no-repeat;}
-    #twentyone{background-image: url("images/James.png");background-repeat: no-repeat;}
+    .todd{background-image: url("images/Todd.png");background-repeat: no-repeat;}
+    .ruth{background-image: url("images/Ruth.png");background-repeat: no-repeat;}
+    .emily{background-image: url("images/Emily.png");background-repeat: no-repeat;}
+    .angela{background-image: url("images/Angela.png");background-repeat: no-repeat;}
+    .mike{background-image:url("images/Mike.png");background-repeat:no-repeat;}
+    .cheryl{background-image: url("images/Cheryl.png");background-repeat: no-repeat;}
+    .ben{background-image: url("images/Ben.png");background-repeat: no-repeat;}
+    .edu{background-image: url("images/Edu.png");background-repeat: no-repeat;}
+    .victoria{background-image: url("images/Victoria.png");background-repeat: no-repeat;}
+    .abdulrahman{background-image: url("images/Abdulrahman.png");background-repeat: no-repeat;}
+    .matt{background-image: url("images/Matt.png");background-repeat: no-repeat;}
+    .lucía{background-image: url("images/Lucia.png");background-repeat: no-repeat;}
+    .max{background-image: url("images/Max.png");background-repeat: no-repeat;}
+    .javier{background-image: url("images/Javier.png");background-repeat: no-repeat;}
+    .phillip{background-image: url("images/Phillip.png");background-repeat: no-repeat;}
+    .kiara{background-image: url("images/Kiara.png");background-repeat: no-repeat;}
+    .kate{background-image:url("images/Kate.png");background-repeat:no-repeat;}
+    .jiao-hu{background-image: url("images/Jiaohu.png");background-repeat: no-repeat;}
+    .renato{background-image: url("images/Renato.png");background-repeat: no-repeat;}
+    .isabel{background-image: url("images/Isabel.png");background-repeat: no-repeat;}
+    .james{background-image: url("images/James.png");background-repeat: no-repeat;}
 
+    .test{background-image:url("images/background simple.png");background-repeat: no-repeat;}
 /*
            toggle to this on cards once eliminated.
 text.content==No or X;

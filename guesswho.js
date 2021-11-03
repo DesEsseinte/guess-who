@@ -1,26 +1,26 @@
 let peopleMasterCopy=[
-  {person:"Todd",  boy:"x",    glasses:"x",     blondeHair:"x",notBrownHair:"",notRedHair:"", notBlackHair:"",   shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"",noBow:"",},
-  {person:"Mike",  boy:"x",    glasses:"x",     brownHair:"x",notBlondeHair:"",notRedHair:"", notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  beard:"x", noBow:"",},
-  {person:"Ben",   boy:"x",    noGlasses:"",    blondeHair:"x",notBrownHair:"",notRedHair:"", notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  beard:"x", noBow:"",},
-  {person:"Angela", girl:"x",  glasses:"x",     blondeHair:"x",notBrownHair:"",notRedHair:"", notBlackHair:"",   shortHair:"x", notLongHair:"", notBald:"",  noBeard:"", noBow:"",},
-  {person:"Emily",  girl:"x",  glasses:"x",     brownHair:"x",notBlondeHair:"",notRedHair:"", notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"",},
-  {person:"Ruth",   girl:"x",  noGlasses:"",    blondeHair:"x",notBrownHair:"",notRedHair:"", notBlackHair:"",   shortHair:"x", notLongHair:"", notBald:"",  noBeard:"", bow:"",},
-  {person:"Victoria",girl:"x", noGlasses:"x",   redHair:"x", notBlondeHair:"",notBrownHair:"",notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"",noBow:"",  },
-  {person:"Matt",   boy:"x",   noGlasses:"x",   brownHair:"x",notBlondeHair:"",notRedHair:"",notBlackHair:"",    shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"", },
-  {person:"Edu",    boy:"x",   glasses:"x",     blackHair:"x",notBlondeHair:"",notBrownHair:"",notRedHair:"",    shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"", },
-  {person:"Abdulrahman", boy:"x", glasses:"x",  blackHair:"x",notBlondeHair:"",notBrownHair:"",notRedHair:"",    shortHair:"x",notLongHair:"",  notBald:"",  beard:"x",  noBow:"", },
-  {person:"Cheryl",  girl:"x",  glasses:"x",    redHair:"x",notBlondeHair:"", notBrownHair:"",notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", bow:"x",  },
-  {person:"Lucía",   girl:"x",  noGlasses:"x",  blackHair:"x",notBlondeHair:"",notBrownHair:"",notRedHair:"",    longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"x",},
+  {person:"Todd",   id:0,  boy:"x",    glasses:"x",     blondeHair:"x",notBrownHair:"",notRedHair:"", notBlackHair:"",   shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"",noBow:"", status:'notDisplayed',},
+  {person:"Mike",   id:1,  boy:"x",    glasses:"x",     brownHair:"x",notBlondeHair:"",notRedHair:"", notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  beard:"x", noBow:"",status:'notDisplayed', },
+  {person:"Ben",    id:2,  boy:"x",    noGlasses:"",    blondeHair:"x",notBrownHair:"",notRedHair:"", notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  beard:"x", noBow:"",status:'notDisplayed', },
+  {person:"Angela", id:3,  girl:"x",  glasses:"x",     blondeHair:"x",notBrownHair:"",notRedHair:"", notBlackHair:"",   shortHair:"x", notLongHair:"", notBald:"",  noBeard:"", noBow:"",status:'notDisplayed', },
+  {person:"Emily",  id:4,  girl:"x",  glasses:"x",     brownHair:"x",notBlondeHair:"",notRedHair:"", notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"",status:'notDisplayed', },
+  {person:"Ruth",   id:5,  girl:"x",  noGlasses:"",    blondeHair:"x",notBrownHair:"",notRedHair:"", notBlackHair:"",   shortHair:"x", notLongHair:"", notBald:"",  noBeard:"", bow:"",status:'notDisplayed',   },
+  {person:"Victoria",id:6, girl:"x", noGlasses:"x",   redHair:"x", notBlondeHair:"",notBrownHair:"",notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"",noBow:"",status:'notDisplayed',   },
+  {person:"Matt",   id:7,  boy:"x",   noGlasses:"x",   brownHair:"x",notBlondeHair:"",notRedHair:"",notBlackHair:"",    shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"",status:'notDisplayed', },
+  {person:"Edu",    id:8,  boy:"x",   glasses:"x",     blackHair:"x",notBlondeHair:"",notBrownHair:"",notRedHair:"",    shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"",status:'notDisplayed', },
+  {person:"Abdulrahman",id:9, boy:"x", glasses:"x",  blackHair:"x",notBlondeHair:"",notBrownHair:"",notRedHair:"",    shortHair:"x",notLongHair:"",  notBald:"",  beard:"x",  noBow:"", status:'notDisplayed',  },
+  {person:"Cheryl", id:10, girl:"x",  glasses:"x",    redHair:"x",notBlondeHair:"", notBrownHair:"",notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", bow:"x", status:'notDisplayed',  },
+  {person:"Lucía",  id:11, girl:"x",  noGlasses:"x",  blackHair:"x",notBlondeHair:"",notBrownHair:"",notRedHair:"",    longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"x",status:'notDisplayed', },
 
-  {person:"Max",    boy:"x",    noGlasses:"x",  brownHair:"x", notBlondeHair:"",notRedHair:"",notBlackHair:"",   shortHair:"x",notLongHair:"",  notBald:"",  beard:"x",  noBow:"",  },
-  {person:"Javier", boy:"x",    noGlasses:"x",  brownHair:"x", notBlondeHair:"",notRedHair:"",notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"",  },
-  {person:"Philip", boy:"x",    glasses:"x",    redHair:"x",   notBlondeHair:"",notBrownHair:"",notBlackHair:"", shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"",  },
-  {person:"Renato", boy:"x",    noGlasses:"x",  bald:"x",      notBlackHair:"", notBlondeHair:"",notBrownHair:"",notRedHair:"", notLongHair:"", notShortHair:"",beard:"x",noBow:"", },
-  {person:"Kate",   girl:"x",   glasses:"x",    redHair:"x",   notBlondeHair:"",notBrownHair:"",notBlackHair:"", shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"",  },
-  {person:"Jiao-Hu",girl:"x",   noGlasses:"x",    blackHair:"x", notBlondeHair:"",notBrownHair:"",notRedHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", bow:"x",   },
-  {person:"Kiara",  girl:"x",   noGlasses:"x",  brownHair:"x", notBlondeHair:"",notRedHair:"",notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"",  },
-  {person:"James",  boy:"X",    noGlasses:"X",  blackHair:"x", notBlondeHair:"",notBrownHair:"",notRedHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"",  },
-  {person:"Isabel", girl:"x",   noGlasses:"x",  blackHair:"x", notBlondeHair:"",notBrownHair:"",notRedHair:"",   shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"",  },
+  {person:"Max",    id:12,  boy:"x",    noGlasses:"x",  brownHair:"x", notBlondeHair:"",notRedHair:"",notBlackHair:"",   shortHair:"x",notLongHair:"",  notBald:"",  beard:"x",  noBow:"",status:'notDisplayed',},
+  {person:"Javier", id:13,  boy:"x",    noGlasses:"x",  brownHair:"x", notBlondeHair:"",notRedHair:"",notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"", status:'notDisplayed', },
+  {person:"Phillip", id:14,  boy:"x",    glasses:"x",    redHair:"x",   notBlondeHair:"",notBrownHair:"",notBlackHair:"", shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"",status:'notDisplayed', },
+  {person:"Renato", id:15,  boy:"x",    noGlasses:"x",  bald:"x",      notBlackHair:"", notBlondeHair:"",notBrownHair:"",notRedHair:"", notLongHair:"", notShortHair:"",beard:"x",noBow:"",status:'notDisplayed', },
+  {person:"Kate",   id:16,  girl:"x",   glasses:"x",    redHair:"x",   notBlondeHair:"",notBrownHair:"",notBlackHair:"", shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"", status:'notDisplayed', },
+  {person:"Jiao-Hu",id:17,  girl:"x",   noGlasses:"x",  blackHair:"x", notBlondeHair:"",notBrownHair:"",notRedHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", bow:"x", status:'notDisplayed',  },
+  {person:"Kiara",  id:18,  girl:"x",   noGlasses:"x",  brownHair:"x", notBlondeHair:"",notRedHair:"",notBlackHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"",status:'notDisplayed',  },
+  {person:"James",  id:19,  boy:"X",    noGlasses:"X",  blackHair:"x", notBlondeHair:"",notBrownHair:"",notRedHair:"",   longHair:"x", notShortHair:"", notBald:"",  noBeard:"", noBow:"",status:'notDisplayed',  },
+  {person:"Isabel", id:20,  girl:"x",   noGlasses:"x",  blackHair:"x", notBlondeHair:"",notBrownHair:"",notRedHair:"",   shortHair:"x",notLongHair:"",  notBald:"",  noBeard:"", noBow:"",status:'notDisplayed',  },
 
 ];
 let people=peopleMasterCopy;
@@ -52,6 +52,7 @@ const yesBtn=document.querySelector("#yesBtn");
 const noBtn=document.querySelector("#noBtn");
 const questionDisplay1=document.querySelector("#questionDisplay1");
 const questionDisplay2=document.querySelector("#questionDisplay2");
+const gameBoard=document.querySelector(".gameBoard");
 
 let gameState="";
 let answer='';
@@ -61,21 +62,60 @@ let hairColor='';
 let hairLength='';
 let relevant=0;
 
+
                                           //code for starting game.
       startBtn.addEventListener('click', ()=>{
         if (gameState=="gameover"){
           questionDisplay2.textContent="";
           questionDisplay1.textContent="";
           gameState="playing";
+          clearGameBoard();
+          displayCharacters();
           askQuestion(questions);
         }else if(gameState=="playing"){
-
-        }else{
+          gameOver();
+          questionDisplay2.textContent="";
+          questionDisplay1.textContent="";
+          gameState="playing";
+          clearGameBoard();
+          displayCharacters();
           askQuestion(questions);
+        }else{
+          displayCharacters();
+          askQuestion(questions);
+
         }
       });
 
-                                          //code for yes and no buttons events:
+
+              function displayCharacters(){
+                while(gameBoard.childElementCount<21){
+                  let gameBoardCard=document.createElement('div');
+                  gameBoard.appendChild(gameBoardCard);
+                  gameBoardCard.classList.add('gameBoardCard')
+                  selectCharacterBackground(gameBoardCard);
+                }
+              }
+
+                  function selectCharacterBackground(gameBoardCard){
+                    available=people.filter(individual=>(individual.status=='notDisplayed'));
+                    number=Math.floor(Math.random()*available.length);
+                    name=available[number].person.toLowerCase();
+                    gameBoardCard.classList.add(name);
+                    available[number].status='displayed';
+                  };
+
+
+                function clearGameBoard(){
+                  while(gameBoard.childElementCount!=0){
+                      gameBoard.removeChild(gameBoard.firstChild);
+                  }
+                }
+
+
+
+
+                                              //code for yes and no buttons events:
       yesBtn.addEventListener('click', ()=>{
         if(gameState=="guessing"){
           gameOver();
@@ -196,6 +236,9 @@ function gameOver(){
   gameState="gameover";
   startBtn.textContent="New game";
   people=peopleMasterCopy;
+  people.forEach(item=>{
+    item.status='notDisplayed';
+  })
   possibilities=[];
   updatedQuestions=[];
   questions.forEach(item => {
